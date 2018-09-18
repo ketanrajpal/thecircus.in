@@ -1,0 +1,351 @@
+body
+{
+	background-image:url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	overflow:hidden;
+}
+
+#wholepage
+{
+	background-color:#FFF;
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:9999;
+}
+
+#loading
+{
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	z-index:99999;
+	height:150px;
+	width:100px;
+}
+
+a
+{
+	text-decoration:none;
+	color:#ea495b;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+h1
+{
+	width:700px;
+	font-family: 'Anton', sans-serif;
+	font-size:30px;
+	text-shadow: #fff 0.1em 0.1em 0.2em;
+	color:#ea495b;
+	font-weight:normal;
+	margin-bottom:10px;
+}
+
+p
+{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:14px;
+	color:#000;
+	line-height:25px;
+	font-weight:normal;
+}
+
+#follow
+{
+	position:fixed;
+	top:100px;
+	right:50px;
+}
+
+#follow li
+{
+	float:left;
+	margin:5px;
+}
+
+.right	{	float:right;	}
+.left	{	float:left;		}
+.clear	{	clear:both;		}
+
+.pad5{padding:5px;}
+.pad10{padding:10px;}
+.pad15{padding:15px;}
+.pad20{padding:20px;}
+.pad25{padding:25px;}
+.pad30{padding:30px;}
+.pad40{padding:40px;}
+
+.clear
+{
+	clear:both;
+}
+
+#sections
+{
+	width:600%;
+	height:600%;
+}
+
+.section
+{
+	height:100%;
+	float:left;
+}
+
+.sec
+{
+	width:100%;
+}
+
+#menu
+{
+	font-family: 'Anton', sans-serif;
+	font-size:30px;
+	position:fixed;
+	left:10px;
+}
+
+#smallclouds
+{
+	background-image:url(../images/small-clouds.png);
+	height:227px;
+	width:100%;
+	position:fixed;
+	left:0px;
+	top:20px;
+	z-index:-1;
+}
+
+#medclouds
+{
+	background-image:url(../images/med-clouds.png);
+	width:100%;
+	height:227px;
+	position:fixed;
+	left:0px;
+	top:20px;
+	z-index:-1;
+}
+
+#menu li a
+{
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:left;
+	transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+#menu li a:hover
+{
+	color:#F30;
+}
+
+#subabout, #subservice, #subwork
+{
+	display:none;
+	font-size:23px;
+}
+
+.pagecenter
+{
+	width:1050px;
+	height:500px;
+	margin:auto;
+}
+
+.seprator
+{
+	width:100%;
+}
+
+#logo
+{
+	position:fixed;
+	right:10px;
+	top:10px;
+}
+
+#home
+{
+	background-image:url(../images/home.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+#media, #work, #clients, #career, #contact
+{
+	background-image:url(../images/grass.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+#contact, #career
+{
+	background-image:url(../images/contact.png);
+}
+
+#media, #work
+{
+	background-image:url(../images/mediabg.png);
+}
+
+#about, #team
+{
+	background-image:url(../images/about.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+#culture
+{
+	background-image:url(../images/team.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+#team
+{
+	background-image:url(../images/team.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+#services
+{
+	background-image:url(../images/services.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+#quote
+{
+	width:700px;
+	font-family: 'Anton', sans-serif;
+	font-size:30px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	color:#FFF;
+	margin-left:100px;
+}
+
+
+#author
+{
+	color:#000;
+	text-shadow:none;
+	font-size:20px;
+	padding-left:10px;
+	line-height:60px;
+}
+
+.myform
+{
+	margin-bottom:10px;
+}
+
+.data
+{
+	font-family: 'Anton', sans-serif;
+	font-size:20px;
+	color:#FFF;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	float:left;
+	display:block;
+	width:100px;
+	font-stretch:expanded;
+}
+
+.input
+{
+	float:left;
+	margin-left:10px;
+	margin-top:-5px;
+}
+
+.imp
+{
+	color:#F00;
+	margin-left:3px;
+}
+
+input[type='text']
+{
+	padding:10px;
+	background-color:transparent;
+	border:none;
+	padding-bottom:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFF;
+	font-weight:bold;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	background-image:url(../images/line.png);
+	background-repeat:repeat-x;
+	background-position:center bottom;
+	width:200px;
+}
+
+.contactdiv
+{
+	width:520px;
+}
+
+#career .pagecenter
+{
+	background-image:url(../images/Career.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+#about .pagecenter, #clients .pagecenter, #team .pagecenter, #culture .pagecenter, #work .pagecenter
+{
+	background-image:url(../images/cloud.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+#work .pagecenter
+{
+	background-image:url(../images/work.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+#media .pagecenter
+{
+	background-image:url(../images/media.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+#career .pagecenter .carrercontent, #culture .pagecenter .carrercontent, #services .pagecenter .carrercontent
+{
+	background-image:url(../images/cloud2.png);
+	background-repeat:no-repeat;
+	background-size:auto;
+	width:600px;
+	height:364px;
+}
